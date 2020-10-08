@@ -1,6 +1,6 @@
 {
   "name": "angular5-signaturepad",
-  "version": "1.41.0",
+  "version": "1.41.1",
   "description": "Angular 5 Component wrapper for szimek / signature_pad",
   "main": "index.js",
   "typings": "./index.d.ts",
