@@ -1,24 +1,26 @@
-# angular2-signaturepad
-Angular 2 component for [szimek/signature_pad](https://www.npmjs.com/package/signature_pad).
+# angular5-signaturepad
 
-<< THIS IS NO LONGER IN USE BY OWNER. PROBLEMS CAN AND DO EXIST. PRs ARE SUPER WELCOME, BUT I CAN NOT IDENTIFY WHAT YOUR ISSUES ARE, NOR WILL I CHANGE THINGS BECAUSE ANGULAR HAS CHANGED IN THE YEARS SINCE I WROTE THIS >>
+Angular 5 component for [szimek/signature_pad](https://www.npmjs.com/package/signature_pad).
+
+<< This is fork of [wulfsolter/angular2-signaturepad](https://github.com/wulfsolter/angular2-signaturepad) ported to angular 5 >>
 
 ## Install
-`npm install angular2-signaturepad --save`
+
+`npm install angular5-signaturepad --save`
 
 ## Reference Implementation
 
-* [Live Demo](http://lathonez.com/angular2-signaturepad-demo/)
-* [Source](https://github.com/lathonez/angular2-signaturepad-demo)
+- [Source](https://github.com/uno-solucoes/angular5-signaturepad-demo)
 
 ## Usage example
 
 API is identical to [szimek/signature_pad](https://www.npmjs.com/package/signature_pad).
 
 Options are as per [szimek/signature_pad](https://www.npmjs.com/package/signature_pad) with the following additions:
-* canvasWidth: width of the canvas (px)
-* canvasHeight: height of the canvas (px)
-The above options are provided to avoid accessing the DOM directly from your component to adjust the canvas size.
+
+- canvasWidth: width of the canvas (px)
+- canvasHeight: height of the canvas (px)
+  The above options are provided to avoid accessing the DOM directly from your component to adjust the canvas size.
 
 ```typescript
 
